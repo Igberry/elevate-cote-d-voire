@@ -5,37 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elevate Côte d'Ivoire</title>
   <link rel="stylesheet" href="styles/style.css">
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- ===== HEADER ===== -->
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar">
+    <div class="top-left">
+      <a href="#contact"><i class="fas fa-envelope"></i> elevatecotedivoire@gmail.com</a>
+      <a href="#"><i class="fas fa-phone"></i> +1 (801) 386-3392</a>
+    </div>
+    <div class="top-right">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- ===== MAIN HEADER ===== -->
   <header>
-    <div class="logo">Elevate CI</div>
+    <div class="logo">
+      <img src="images/elevate.jpg" alt="Elevate Logo">
+    </div>
     <nav class="nav" id="nav-menu">
-      <a href="#hero">Home</a>
       <a href="#about">About Us</a>
-      <a href="#challenges">Challenges</a>
-      <a href="#impact">Impact</a>
-      <a href="#help">Get Involved</a>
-      <a href="#contact">Contact</a>
+      <a href="#community">Community</a>
+      <a href="#membership">Impact Membership</a>
+      <a href="#university">Elevate University</a>
+      <a href="#support">Support Elevate University</a>
+      <a href="#contact">Contact Us</a>
     </nav>
     <button class="hamburger" id="hamburger">&#9776;</button>
   </header>
 
-  <!-- ===== HERO ===== -->
+  <!-- ===== HERO SECTION ===== -->
   <section id="hero" class="hero">
-    <h1>ELEVATE CÔTE D’IVOIRE</h1>
-    <p>Where Growth Meets Social Impact</p>
-    <div class="hero-buttons">
-      <a href="#" class="btn">Hire Us</a>
-      <a href="#" class="btn btn-outline">Volunteer</a>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>ELEVATE COTE D’IVOIRE</h1>
+      <h2>Where Growth Meets Social Impact</h2>
+      <p>Creating Prosperity By Generating Economic Opportunities</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn">Hire Us</a>
+        <a href="#" class="btn btn-outline">Volunteer</a>
+      </div>
     </div>
   </section>
 
-  <!-- ===== ABOUT / CHALLENGES ===== -->
+  <!-- ===== CHALLENGES ===== -->
   <section id="challenges" class="section">
     <h2>Our Challenges</h2>
-    <p>Côte d'Ivoire faces high unemployment (36%), poverty, and health challenges. We are on a mission to transform lives through opportunities.</p>
-    <a href="#" class="link">Read More →</a>
+    <p>Côte d'Ivoire faces high unemployment (36%) and persistent poverty (39.5%), 
+       impacting living conditions and access to education. Although poverty has 
+       improved since 2015, the infant mortality rate remains high (52.4 per 1,000 
+       live births). Health challenges include below average nutrition rates and 
+       diseases such as malaria.</p>
   </section>
 
   <!-- ===== IMPACT ===== -->
@@ -58,19 +82,10 @@
         <img src="https://via.placeholder.com/300x200" alt="Families Helped">
         <p>Helped <strong>families achieve stability</strong></p>
       </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Families Helped">
-        <p>Helped <strong>families achieve stability</strong></p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Families Helped">
-        <p>Helped <strong>families achieve stability</strong></p>
-      </div>
     </div>
     <a href="#" class="link">Read More →</a>
-  </section>
 
-  <!-- ===== HELP / CTA ===== -->
+    <!-- ===== HELP / CTA ===== -->
   <section id="help" class="section cta">
     <h2>How You Can Help</h2>
     <div class="hero-buttons">
@@ -79,7 +94,7 @@
     </div>
   </section>
 
-  <!-- ===== CONTACT ===== -->
+  <!-- ===== FOOTER ===== -->
   <footer id="contact">
     <p>© 2025 Elevate Côte d'Ivoire. All rights reserved.</p>
   </footer>
